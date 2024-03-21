@@ -1,0 +1,26 @@
+Tabella: Auto Usate
+
+
+targa: SMALLINT, PK
+
+data prima immatricolazione: DATE, NOT NULL
+
+tipologia_veicolo: VARCHAR(20), NOT NULL
+
+marca_veicolo: VARCHAR(20), NOT NULL
+
+modello_veicolo:  VARCHAR(20), NOT NULL
+
+categoria_veicolo: VARCHAR(10), NOT NULL
+
+carburante_veicolo: VARCHAR(20), NOT NULL
+
+numero_telaio: VARCHAR(20), UNIQUE, NOT NULL
+
+kilometraggio: SMALLINT, NOT NULL
+
+ultimo_proprietario: VARCHAR(50), NULL
+
+prezzo: FLOAT(7, 2), NOT NULL
+
+descrizione_imperfezioni: TEXT, NULL
